@@ -8,7 +8,8 @@
     "scheme": "trustpilotremakebyalexandkoce",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.ak.test"
     },
     "android": {
       "adaptiveIcon": {
@@ -34,11 +35,19 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9cf5fd24-f2ef-47bf-806a-5108dfeaccf7"
+      }
     }
   }
 }
